@@ -27,6 +27,7 @@ class StringTest {
 	}
 	@Test
 	void compareToTest() {
-		//TODO
+		//TODOooo
+		String str = "Hello";
 	}
 }
