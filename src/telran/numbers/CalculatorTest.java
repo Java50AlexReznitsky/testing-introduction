@@ -1,7 +1,11 @@
 package telran.numbers;
 
 import static org.junit.jupiter.api.Assertions.*;
-import static telran.numbers.Calculator.*;
+import static telran.numbers.Calculator.divide;
+import static telran.numbers.Calculator.multiply;
+import static telran.numbers.Calculator.remainder;
+import static telran.numbers.Calculator.subtract;
+import static telran.numbers.Calculator.sum;
 
 import org.junit.jupiter.api.Test;
 
