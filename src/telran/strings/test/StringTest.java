@@ -5,7 +5,7 @@ import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
 
 class StringTest {
-
+//++
 	@Test
 	void charAtTest() {
 		String str = "Hello";
@@ -31,7 +31,7 @@ class StringTest {
 		//TODOooo
 		String str = "Hello";
 		assertEquals(-32,str.compareTo("hello"));
-		assertEquals(0,str.compareTo("Hello"));
+		assertEquals(0,str.compareTo("Helloo"));
 		assertEquals(32,str.compareTo("HellO"));
 		assertEquals(32,str.compareTo("HELLO"));
 		assertEquals(-3,str.compareTo("Helloooo"));
