@@ -28,7 +28,6 @@ class StringTest {
 	//HW_1
 	@Test
 	void compareToTest() {
-		//TODOooo
 		String str = "Hello";
 		assertEquals(-32,str.compareTo("hello"));
 		assertEquals(0,str.compareTo("Helloo"));
